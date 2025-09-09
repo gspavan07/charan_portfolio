@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function SelectedWork() {
   return (
     <section
-      className="text-white py-24 px-8 bg-cover bg-center relative"
+      className="text-white py-24 px-10 bg-cover bg-center relative"
       id="work"
       style={{ backgroundImage: "url(/bg_2.avif)" }}
     >
@@ -20,7 +20,7 @@ export default function SelectedWork() {
           Work that reflects how I think, design, and create.
         </p>
 
-        <div className="space-y-12">
+        <div className="space-y-30 lg:space-y-12">
           {/* Motion Design Card */}
           <div className="bg-gradient-to-bl  from-white to-blue-200 backdrop-blur-lg text-black rounded-3xl p-8 flex flex-col md:flex-row items-center gap-8 hover:scale-110 hover:rotate-2 transition-transform duration-300 cursor-pointer h-92">
             <div className="md:w-1/2 text-left space-y-4">

@@ -4,13 +4,13 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 export default function Hero() {
   return (
     <section
-      className=" flex flex-col-reverse md:flex-row items-center justify-between h-screen mx-auto px-30 rounded-xl shadow-sm bg-cover bg-center"
+      className="flex  flex-col lg:flex-row text-center lg:text-start items-between lg:items-center justify-center lg:justify-between h-screen mx-auto px-15 lg:px-30 rounded-xl shadow-sm bg-cover bg-center"
       style={{ backgroundImage: "url(/bg.avif)" }}
     >
       {/* Text section */}
-      <div className="md:w-1/2 space-y-4 mt-10">
+      <div className="flex flex-col items-center lg:items-start justify-end lg:justify-center h-1/2 lg:h-fit lg:w-1/2 space-y-1 lg:space-y-4 lg:mt-10">
         <h2
-          className="text-xl text-gray-700 2xl:text-3xl"
+          className="md:text-lg lg:text-xl text-gray-700 2xl:text-3xl"
           style={{
             fontFamily: "Satoshi Bold, Satoshi Bold Placeholder, sans-serif",
           }}
@@ -20,9 +20,8 @@ export default function Hero() {
           👋🏻
         </h2>
         <TextGenerateEffect
-          words="Web & Mobile App Designer"
+          words={`Web & Mobile App Designer`}
           className="text-5xl md:text-6xl text-black leading-tight 2xl:text-8xl"
-          style={{ fontFamily: "Bricolage Grotesque" }}
         />
 
         <p
@@ -47,19 +46,19 @@ export default function Hero() {
       </div>
 
       {/* Image section */}
-      <div className="slide-top mb-10 md:mb-0 mt-10">
+      <div className="flex justify-center items-center h-1/2 lg:h-full slide-top mb-10 md:mb-0 lg:mt-50">
         <img
           src="/me.png"
           alt="Charan Tej Neelam"
-          className="w-80 h-80 rounded-[4rem] object-cover shadow-lg"
+          className="w-60 h-60 lg:w-80 lg:h-80 rounded-[4rem] object-cover shadow-lg"
         />
       </div>
 
       {/* Rotating Explore More */}
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
-        <div className="relative w-40 h-40">
+        <div className="relative w-30 h-30">
           <svg
-            className="w-40 h-40 animate-spin"
+            className="w-30 h-30 animate-spin"
             style={{ animationDuration: "20s" }}
             viewBox="0 0 100 100"
           >
@@ -80,7 +79,7 @@ export default function Hero() {
             </text>
           </svg>
           <div className="absolute inset-0 flex items-center justify-center">
-            <IoArrowDownCircleOutline size={40} className="text-gray-400" />
+            <IoArrowDownCircleOutline size={30} className="text-gray-400" />
           </div>
         </div>
       </div>
