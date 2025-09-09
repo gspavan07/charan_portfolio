@@ -15,7 +15,9 @@ export default function Hero() {
             fontFamily: "Satoshi Bold, Satoshi Bold Placeholder, sans-serif",
           }}
         >
-          Hello! I’m <span className="font-semibold">Charan Tej Neelam</span> 👋🏻
+          Hello! I’m{" "}
+          <span className="text-focus-in font-semibold">Charan Tej Neelam</span>{" "}
+          👋🏻
         </h2>
         <TextGenerateEffect
           words="Web & Mobile App Designer"
@@ -45,7 +47,7 @@ export default function Hero() {
       </div>
 
       {/* Image section */}
-      <div className="mb-10 md:mb-0 mt-10">
+      <div className="slide-top mb-10 md:mb-0 mt-10">
         <img
           src="/me.png"
           alt="Charan Tej Neelam"

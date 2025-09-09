@@ -34,7 +34,9 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="#resume"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:bg-gradient-to-b hover:from-green-400 hover:via-green-500 hover:to-black hover:bg-clip-text hover:text-transparent transition-all duration-300"
           >
             Resume

@@ -102,18 +102,19 @@ export default function Superpowers() {
             </div>
           </div>
 
-          {/* Tools Section - Large right bottom */}
-          <div className="col-span-4 row-span-1 bg-gradient-to-br from-gray-800 to-black rounded-4xl p-6 flex flex-col justify-center items-center relative overflow-hidden hover:scale-90 transition-transform duration-300 cursor-pointer">
-            <div className="grid grid-cols-3 gap-3">
-              <div className="w-12 h-12 bg-emerald-500 rounded-xl flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded-md"></div>
+          {/* Co-founder Section - Large right bottom */}
+          <div className="col-span-4 row-span-1 bg-gradient-to-br from-blue-600 to-blue-800 rounded-4xl p-6 flex flex-col justify-center items-center relative overflow-hidden hover:scale-90 transition-transform duration-300 cursor-pointer">
+            <div className="text-center">
+              <div className="mb-4">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3">
+                  <span className="text-white font-bold text-2xl">Of</span>
+                </div>
               </div>
-              <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center">
-                <div className="text-white font-bold text-sm">Ae</div>
-              </div>
-              <div className="w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded-full"></div>
-              </div>
+              <h3 className="text-xl font-bold text-white mb-2">Co-founder</h3>
+              <p className="text-blue-200 text-lg font-semibold">Ofzen</p>
+              <p className="text-blue-300 text-sm mt-2">
+                Building innovative solutions
+              </p>
             </div>
           </div>
           <div className="col-span-1 row-span-2 rounded-4xl p-8 flex flex-col justify-between relative overflow-hidden hover:scale-90 transition-transform duration-300 cursor-pointer"></div>

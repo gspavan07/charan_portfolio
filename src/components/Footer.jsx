@@ -19,16 +19,20 @@ export default function Footer() {
               Let's create together!
             </h2>
             <div className="flex items-center gap-3 text-xl">
-              <span>career.charantej@gmail.com</span>
-              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                <svg
-                  className="w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7z" />
-                </svg>
-              </div>
+              <a href="mailto:career.charantej@gmail.com">
+                career.charantej@gmail.com
+              </a>
+              <a href="mailto:career.charantej@gmail.com">
+                <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+                  <svg
+                    className="w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7 7h10v3l4-4-4-4v3H5v6h2V7z" />
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -50,7 +54,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex gap-8 mb-4 md:mb-0">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/charan-tej-neelam-bb0a9a302/"
               className="text-2xl font-bold hover:text-emerald-400 transition"
             >
               in

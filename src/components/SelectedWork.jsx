@@ -40,9 +40,12 @@ export default function SelectedWork() {
               </a>
             </div>
             <div className="md:w-1/2 h-full">
-              <div className="bg-gradient-to-br from-purple-500 to-blue-600 rounded-2xl p-8 h-full flex items-center justify-center">
-                <div className="w-16 h-16 bg-white/20 rounded-xl transform rotate-45"></div>
-                <div className="w-12 h-12 bg-white/30 rounded-full ml-4"></div>
+              <div className="bg-gradient-to-br from-purple-500 to-blue-600 rounded-2xl p-6 h-full flex items-center justify-center">
+                <img
+                  src="/work/ct.png"
+                  alt="CpdeTracker"
+                  className="w-full h-auto max-h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -67,10 +70,12 @@ export default function SelectedWork() {
               </a>
             </div>
             <div className="md:w-1/2 h-full">
-              <div className="bg-gradient-to-br from-orange-400  to-red-500 rounded-2xl p-8 h-full flex items-center justify-center relative">
-                <div className="text-white text-2xl font-bold italic">
-                  visual
-                </div>
+              <div className="bg-gradient-to-br from-orange-400  to-red-500 rounded-2xl p-6 h-full flex items-center justify-center relative">
+                <img
+                  src="/work/koyya.png"
+                  alt="Koyya"
+                  className="w-full h-auto max-h-full object-cover rounded-lg"
+                />
                 <div className="absolute inset-0 bg-grid-pattern opacity-20"></div>
               </div>
             </div>
@@ -95,9 +100,12 @@ export default function SelectedWork() {
               </a>
             </div>
             <div className="md:w-1/2 h-full">
-              <div className="bg-gradient-to-br from-green-400 to-teal-500 rounded-2xl p-8 h-full flex items-center justify-center">
-                <div className="w-20 h-20 bg-white/20 rounded-lg"></div>
-                <div className="w-2 h-16 bg-white/40 mx-4"></div>
+              <div className="bg-gradient-to-br from-green-400 to-teal-500 rounded-2xl p-6 h-full flex items-center justify-center">
+                <img
+                  src="/work/examate.png"
+                  alt="Examate"
+                  className="w-full h-auto max-h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -120,9 +128,12 @@ export default function SelectedWork() {
               </a>
             </div>
             <div className="md:w-1/2 h-full">
-              <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-8 h-full flex items-center justify-center">
-                <div className="w-20 h-20 bg-white/20 rounded-lg"></div>
-                <div className="w-2 h-16 bg-white/40 mx-4"></div>
+              <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 h-full flex items-center justify-center">
+                <img
+                  src="/work/meatbox.png"
+                  alt="MeatBox"
+                  className="w-full h-auto max-h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
