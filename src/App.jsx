@@ -9,6 +9,10 @@ import Navbar from "./components/Navbar";
 import Superpowers from "./components/SuperPower";
 import SelectedWork from "./components/SelectedWork";
 import ToolsSection from "./components/Tools";
+import CodeTracker from "./components/ViewMore/CodeTracker";
+import Koyya from "./components/ViewMore/Koyya";
+import ExaMate from "./components/ViewMore/ExaMate";
+import MeatBox from "./components/ViewMore/MeatBox";
 
 function Home() {
   return (
@@ -30,6 +34,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<SelectedWork />} />
+          <Route path="/codetracker" element={<CodeTracker />} />
+          <Route path="/koyya" element={<Koyya />} />
+          <Route path="/examate" element={<ExaMate />} />
+          <Route path="/meatbox" element={<MeatBox />} />
         </Routes>
         <Footer />
       </div>

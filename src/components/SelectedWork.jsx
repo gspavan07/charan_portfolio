@@ -31,13 +31,14 @@ export default function SelectedWork() {
                 developers track coding practice, monitor progress, and stay
                 motivated through structured logging and consistency.
               </p>
-              <a
-                href="https://www.figma.com/design/EYLi4pEqgkyRjRdWxhk4N6/Coading-platform-tracker?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
-                target="_blank"
-                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer"
+              <Link
+                to="/codetracker"
+                // href="https://www.figma.com/design/EYLi4pEqgkyRjRdWxhk4N6/Coading-platform-tracker?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
+                // target="_blank"
+                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer hover:bg-violet-600"
               >
                 View More
-              </a>
+              </Link>
             </div>
             <div className="md:w-1/2 h-full">
               <div className="bg-gradient-to-br from-purple-500 to-blue-600 rounded-2xl p-6 h-full flex items-center justify-center">
@@ -61,13 +62,14 @@ export default function SelectedWork() {
                 products, marketing services).
               </p>
 
-              <a
-                href="https://www.figma.com/design/kRA8gbkAk3oAtxby774wbP/KOYYA?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
-                target="_blank"
-                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer"
+              <Link
+                to="/koyya"
+                // href="https://www.figma.com/design/kRA8gbkAk3oAtxby774wbP/KOYYA?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
+                // target="_blank"
+                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-80 hover:bg-amber-600 transition cursor-pointer "
               >
                 View More
-              </a>
+              </Link>
             </div>
             <div className="md:w-1/2 h-full">
               <div className="bg-gradient-to-br from-orange-400  to-red-500 rounded-2xl p-6 h-full flex items-center justify-center relative">
@@ -91,13 +93,14 @@ export default function SelectedWork() {
                 allocations and related processes, reducing errors and saving
                 time for college administrators
               </p>
-              <a
-                href="https://www.figma.com/design/HdQPlEQ2TZkApY4dQeep4P/ExamMate?node-id=50-1638&t=OSknbNHFVqqA2bzq-1"
-                target="_blank"
-                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer"
+              <Link
+                to="/examate"
+                // href="https://www.figma.com/design/HdQPlEQ2TZkApY4dQeep4P/ExamMate?node-id=50-1638&t=OSknbNHFVqqA2bzq-1"
+                // target="_blank"
+                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer hover:bg-green-600"
               >
                 View More
-              </a>
+              </Link>
             </div>
             <div className="md:w-1/2 h-full">
               <div className="bg-gradient-to-br from-green-400 to-teal-500 rounded-2xl p-6 h-full flex items-center justify-center">
@@ -119,13 +122,14 @@ export default function SelectedWork() {
                 offering chicken, mutton, and eggs straight to your doorstep
                 with guaranteed quality and speed.
               </p>
-              <a
-                href="https://www.figma.com/design/7YuQa9Ep7sQ64R3wlAx5M8/Meat-Box?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
-                target="_blank"
-                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer"
+              <Link
+                to="/meatbox"
+                // href="https://www.figma.com/design/7YuQa9Ep7sQ64R3wlAx5M8/Meat-Box?node-id=0-1&t=OSknbNHFVqqA2bzq-1"
+                // target="_blank"
+                className="px-6 py-2 bg-black text-white rounded-full hover:opacity-90 transition cursor-pointer hover:bg-blue-700"
               >
                 View More
-              </a>
+              </Link>
             </div>
             <div className="md:w-1/2 h-full">
               <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 h-full flex items-center justify-center">
