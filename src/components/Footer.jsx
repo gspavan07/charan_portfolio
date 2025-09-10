@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer
-      className="pt-25 pb-10 lg:pb-0 lg:pt-0 lg:py-20 px-8 bg-cover bg-center relative text-white"
+      className="pt-25 pb-10 lg:py-20 px-8 bg-cover bg-center relative text-white"
       style={{ backgroundImage: "url(/footer_bg.avif)" }}
     >
       <div className="absolute inset-0 bg-black/30"></div>

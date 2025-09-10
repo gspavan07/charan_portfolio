@@ -13,6 +13,7 @@ import CodeTracker from "./components/ViewMore/CodeTracker";
 import Koyya from "./components/ViewMore/Koyya";
 import ExaMate from "./components/ViewMore/ExaMate";
 import MeatBox from "./components/ViewMore/MeatBox";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="font-sans bg-gray-50 text-gray-900">
         <Navbar />
         <Routes>

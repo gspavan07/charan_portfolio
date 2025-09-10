@@ -20,9 +20,9 @@ export default function SelectedWork() {
           Work that reflects how I think, design, and create.
         </p>
 
-        <div className="space-y-30 lg:space-y-12">
+        <div className="space-y-50 lg:space-y-12">
           {/* Motion Design Card */}
-          <div className="bg-gradient-to-bl  from-white to-blue-200 backdrop-blur-lg text-black rounded-3xl p-8 flex flex-col md:flex-row items-center gap-8 hover:scale-110 hover:rotate-2 transition-transform duration-300 cursor-pointer h-92">
+          <div className="bg-gradient-to-bl from-white to-blue-200 backdrop-blur-lg text-black rounded-3xl p-8 flex flex-col md:flex-row items-center gap-8 hover:scale-110 hover:rotate-2 transition-transform duration-300 cursor-pointer h-92">
             <div className="md:w-1/2 text-left space-y-4">
               <p className="text-sm text-gray-500">2025 </p>
               <h3 className="text-2xl font-bold">Code Tracker</h3>

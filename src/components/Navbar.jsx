@@ -21,12 +21,12 @@ export default function Navbar() {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-16 mr-4 text-lg font-extrabold text-gray-800">
         <li>
-          <a
-            href="/#work"
+          <Link
+            to="/#work"
             className="hover:bg-gradient-to-b hover:from-green-400 hover:via-green-500 hover:to-black hover:bg-clip-text hover:text-transparent transition-all duration-300"
           >
             Work
-          </a>
+          </Link>
         </li>
         <li>
           <Link
@@ -63,13 +63,13 @@ export default function Navbar() {
         <div className="absolute top-full left-0 right-0 mt-2 bg-white/90 backdrop-blur-lg rounded-2xl shadow-lg md:hidden">
           <ul className="flex flex-col gap-4 p-6 text-lg font-extrabold text-gray-800">
             <li>
-              <a
-                href="/#work"
+              <Link
+                to="/#work"
                 className="block hover:bg-gradient-to-b hover:from-green-400 hover:via-green-500 hover:to-black hover:bg-clip-text hover:text-transparent transition-all duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 Work
-              </a>
+              </Link>
             </li>
             <li>
               <Link
